@@ -1,13 +1,13 @@
 import app from "./App.vue";
 import { pluginsWrapper } from "./plugins";
 import { createWebComponent } from "vue-web-component-wrapper";
-import customStyles from "./style.scss?inline";
+import customStyles from "./style.css?inline";
 
 import {
-    defineCustomElement as VueDefineCustomElement,
-    h,
-    createApp,
-    getCurrentInstance,
+  defineCustomElement as VueDefineCustomElement,
+  h,
+  createApp,
+  getCurrentInstance,
 } from "vue";
 
 createWebComponent({
