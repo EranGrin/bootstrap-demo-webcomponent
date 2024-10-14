@@ -20,5 +20,5 @@ createWebComponent({
   createApp,
   getCurrentInstance,
   disableShadowDOM: false,
-  replaceRootWithHostInCssFramework,
+  replaceRootWithHostInCssFramework
 });
